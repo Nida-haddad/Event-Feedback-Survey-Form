@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&family=Source+Sans+Pro:wght@200;300;400&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,500&display=swap" rel="stylesheet">
+
+    <title>Event Feedback Survey Form</title>
+</head>
+<body>
+      <div class="conatnier">
+            <div class="title">Event Feedback Survey Form</div>
+            <form class="fields">
+                         <p class="description">Please share your feedback regarding the event</p>
+                        <hr>
+                        <div class="field  f1">
+    
+                               <label class="labels">Full Name</label> 
+                               <input type="text" id="fname" name="fname"  placeholder="First Name">
+                               <input type="text" id="lname" name="lname"  placeholder="Last Name">
+                        </div>
+
+
+                         <div class="field f2">
+                        <label class="labels">Email</label> 
+                        <input type="email" id="email" name="email"  placeholder="Muemail@gmail.com">
+                         </div>
+
+
+                         <div class="field f3">
+                        <label class="labels">Gender</label> 
+                          <input type="radio" id="male" name="Gender" value="Male">
+                          <label for="male">Male</label>
+                         <input type="radio" id="Female" name="Gender" value="Feale">
+                          <label for="Female">Female</label> 
+                         </div>
+
+                         <div class="field f4">
+                         <label class="labels">Phone</label> 
+                        <input type="text" id="Number" name="Number"  placeholder="0798870897">
+                        </div>
+
+                          <div class="field f5">
+                         
+                          <label class="labels">How did you hear about the event?  <br></label>
+                        <input type="checkbox" id="Social-media" name="hear-about"  value="Social media">
+                        <label for="Social-media">Social media</label>
+                        <input type="checkbox" id="Internet-Advertisements" name="hear-about"  value="Internet Advertisements">
+                        <label for="Internet-Advertisements">Internet Advertisements</label>
+                        <input type="checkbox" id="Friends" name="hear-about"  value="Friends">
+                        <label for="Friends">Friends</label>
+                        <input type="checkbox" id="Television" name="hear-about"  value="Television">
+                        <label for="Television">Television</label>     
+                         </div>
+
+       
+                        <div class="field f6">
+                          
+                          <label class="labels">Please rate the following:</label> <br>
+                          <div class="rate1"> 
+                         <label for="">Event Usefulness:</label>
+                         <span class="fa fa-star checked"></span>
+                          <span class="fa fa-star checked"></span>
+                         <span class="fa fa-star checked"></span>
+                         <span class="fa fa-star"></span>
+                         <span class="fa fa-star"></span> </div>
+                        
+                              <div class="rate2">    <label for="">Time management:</label>
+                                    <span class="fa fa-star checked"></span>
+                                     <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star checked"></span>
+                                    <span class="fa fa-star"></span> </div>
+                     
+                         </div>
+
+                   <div class="field f7">
+                     
+                     <label class="labels">Will you join us next year?</label> <br>
+                      <input type="radio" id="NO" name="Joice" value="no">
+                       <label for="NO">No</label>
+
+                        <input type="radio" id="YES" name="Joice" value="yes">
+                        <label for="YES">Yes</label>
+
+                         <input type="radio" id="MAYBE" name="Joice" value="maybe">
+                        <label for="MAYBE">Maybe</label>
+                   </div>
+
+
+                   <div class="field">
+
+                  <p><label class="labels" for="review">What can we do better?</label></p>
+                   <textarea id="review" name="review" rows="4" cols="50" placeholder="Text here."></textarea>
+                  
+                   
+                      </div> 
+
+                      <input  type="submit" value="Submit"> 
+                  
+    
+            </form><!-- end of field -->
+ 
+</div> <!-- end of contanier -->
+</body>
+</html>

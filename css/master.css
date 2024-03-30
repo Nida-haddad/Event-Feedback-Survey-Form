@@ -1,0 +1,139 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+   background-color: aqua;
+   background-image: url("../imgs/Screenshot\ 2023-03-23\ 224440.png");
+   background-size: cover;
+   color: #212427;
+}
+.conatnier{
+    margin: 100px auto;
+    background-color: #fffffff4;
+    width: 900px;
+    height: fit-content;
+}
+.conatnier .title{
+    background-color: #514c87;
+    color: white;
+    font-size: 50px;
+    /* height: 90px; */
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.fields{
+    margin: 50px 50px;
+    /* font-family: 'Lato', sans-serif; */
+/* font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+font-family: Arial, Helvetica, sans-serif;
+padding-bottom: 50px;
+
+
+}
+.fields .description{
+/* color: blue; */
+margin-bottom: -4px;
+color: rgb(77, 77, 77);
+
+}
+.fields hr {
+    border: 1px solid #514c8734;
+    /* width: 700px; */
+    margin-bottom: 20px;
+}
+.checked {
+    color: orange;
+  }
+  .fields .field{
+    margin: 20px 0px;
+    font-size: 13px;
+    
+  }
+  input[type="text"] {
+  border: 2px solid #737096;
+  border-radius: 5px;
+ width: 200px;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ padding-left: 6px;
+  }
+  input[type="email"]{
+    border: 2px solid #737096;
+    border-radius: 5px;
+   width: 200px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   padding-left: 6px;
+    }
+ textarea{
+
+    border: 2px solid #737096;
+ border-radius: 5px;
+ padding-left: 6px;
+    padding-top: 5px;
+   padding-bottom: 5px;
+            
+            
+ }
+.labels{
+    /* background-color: #514c87; */
+    font-weight:bold ;
+    color: rgb(77, 77, 77);
+    /* margin-bottom: -20px; */
+    
+}
+.f1 .labels{
+    /* background-color: #514c87; */
+    margin-right: 20px;
+}
+.f1   input[type="text"] {
+    margin-left: 30px;
+}
+.f2   input[type="email"] {
+    margin-left: 75px;
+}
+
+.f3 .labels{
+    margin-right:55px ;
+}
+.f4   input[type="text"] {
+    margin-left: 70px;
+}
+.f5 input[type="checkbox"]{
+    margin-top: 10px;
+    
+}
+.f6 .rate1 , .rate2 {
+    margin-top: 10px;
+}
+.f7 input[type="radio"]{
+    margin-top: 10px;
+    margin-left: 0;
+   
+}
+.f7 label{
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+input[type="submit"]{
+/* width: 200px; */
+border: 2px solid #514c87;
+background-color: #737096;
+border-radius: 5px;
+width: 200px;
+padding-top: 5px;
+padding-bottom: 5px;
+color: white;
+/* padding-left: 6px; */
+/* text-align: center; */
+margin: auto 300px;
+margin-top: 15px;
+}
